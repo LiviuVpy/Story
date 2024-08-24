@@ -1,2 +1,49 @@
 Chapter 2
 The story continue..
+
+with branch lessons
+liviu@Togokaua_Ieashu MINGW64 /d/ITwork/Python/UDEMI_COURSE_2
+$ git log
+fatal: not a git repository (or any of the parent directories): .git
+
+liviu@Togokaua_Ieashu MINGW64 /d/ITwork/Python/UDEMI_COURSE_2
+$ cd story
+
+liviu@Togokaua_Ieashu MINGW64 /d/ITwork/Python/UDEMI_COURSE_2/story (master)
+$ git  log
+commit 154329fd7f17b0732e6cbe319b775176f075a464 (HEAD -> master, origin/master)
+Author: ZilebuDakis <liviu1592@gmail.com>
+Date:   Sat Aug 24 12:28:48 2024 +0300
+
+    complete chapter 2 and 3
+
+commit 30cd5d52a99dfa0fe655a1c4f1d33a075e5eb388
+Author: ZilebuDakis <liviu1592@gmail.com>
+Date:   Sat Aug 24 12:11:47 2024 +0300
+
+    commit al 3 files
+
+liviu@Togokaua_Ieashu MINGW64 /d/ITwork/Python/UDEMI_COURSE_2/story (master)
+$ git branch alien plot
+fatal: not a valid object name: 'plot'
+
+liviu@Togokaua_Ieashu MINGW64 /d/ITwork/Python/UDEMI_COURSE_2/story (master)
+$ git branch alien-plot
+
+liviu@Togokaua_Ieashu MINGW64 /d/ITwork/Python/UDEMI_COURSE_2/story (master)
+$ git branch
+  alien-plot
+* master
+
+liviu@Togokaua_Ieashu MINGW64 /d/ITwork/Python/UDEMI_COURSE_2/story (master)
+$ git chechout alien-plot
+git: 'chechout' is not a git command. See 'git --help'.
+
+The most similar command is
+        checkout
+
+liviu@Togokaua_Ieashu MINGW64 /d/ITwork/Python/UDEMI_COURSE_2/story (master)
+$ git checkout alien-plot
+Switched to branch 'alien-plot'
+
+liviu@Togokaua_Ieashu MINGW64 /d/ITwork/Python/UDEMI_COURSE_2/story (alien-plot)

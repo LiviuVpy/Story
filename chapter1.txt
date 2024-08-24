@@ -1,2 +1,19 @@
 Chapter 1
 Here we go...
+
+changed in branch lesson
+
+faci branch:
+git branch alien-plot
+
+schimbi pe branch:
+git checkout alien-plot
+
+apoi:
+git add .
+
+git commit -m "modify chapter 1 and 2"
+
+git.log
+
+git branch > va spune pe ce branh esti
