@@ -13,3 +13,7 @@ apoi:
 git add .
 
 git commit -m "modify chapter 1 and 2"
+
+git.log
+
+git branch > va spune pe ce branh esti
